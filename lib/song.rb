@@ -5,6 +5,8 @@ class Song
   
   def add_song_by_title=(title)
     
+    @@songs << title
+    
   end
   
   
